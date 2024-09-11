@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Carrossel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página</h1>
+
+        <nav>
+            <div class="container">
+                
+                <ul>
+
+                <li><a href="https://www.linkedin.com/in/fernanda-alves-godinho-da-silva-4608441a3/" target="_blank">contato 1</a></li>
+                <li><a href="https://instagram.com/fernandaagsilva?igshid=NzZhOTFlYzFmZQ==">Sobre 2</a></li>
+            </ul>
+        </div>
+            
+        </nav>
+    
+    
+    
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="1.png" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="2.png" alt="Imagem 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="3.png" alt="Imagem 3">
+            </div>
+        </div>
+    </header>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" >
+            $(document).ready (function() {
+                $ ('.carousel-container').slick() } ) ;
+                    ({
+                    
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        arrows: false,
+                        dots: true,
+                        autoplaySpeed: 2000,
+                        speed: 1000,
+            }) ;
+        </script>       
+    
+    <section class="content">
+        <h2>futuro dev</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, 
+            sequi perferendis iste atque laborum qui accusamus architecto animi vero,
+             tempore consequatur quibusdam sit eos neque fugiat.
+             Voluptas quaerat obcaecati necessitatibus!</p>
+    </section>
+    
+    <section class="content">
+        <h2>tech</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos, 
+            iure dignissimos non aliquid doloribus rerum tenetur veritatis doloremque 
+            dicta distinctio ratione beatae facilis aperiam sequi voluptatibus.
+             Eos, quis doloremque!</p>
+    </section>
+
+    <footer>
+        <p>codifique seus sonhos</p>
+
+        <nav>
+            <ul>
+                <li>(48)998166108</li>
+                <img src="whatsapp.jpg" alt="Imagem 1" width="50" height>
+                <li><a href="https://github.com/fernandagodinho">github</a></li>
+                <img src="git.png" alt="Imagem 1" width="50" height="50">
+            </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
